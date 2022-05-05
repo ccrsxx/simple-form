@@ -27,11 +27,14 @@
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-shadow": "off",
     "jsx-quotes": ["error", "prefer-single"],
     "jsx-a11y/label-has-associated-control": "off",
     "no-console": "warn",
     "linebreak-style": "off",
     "no-nested-ternary": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-array-index-key": "off",
     "react/self-closing-comp": "warn",
     "import/prefer-default-export": "off"
   }

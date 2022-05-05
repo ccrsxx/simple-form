@@ -32,3 +32,7 @@
     background-position: 0% 50%;
   }
 }
+
+input {
+  background-color: inherit;
+}
