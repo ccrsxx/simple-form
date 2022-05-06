@@ -57,7 +57,7 @@ export function App() {
 
   return (
     <div
-      className='relative flex min-h-screen flex-col items-center gap-2
+      className='relative flex min-h-screen flex-col items-center gap-4
                  bg-gradient-to-r from-cyan-500 to-blue-500 sm:gap-4'
     >
       <Header />
