@@ -239,3 +239,6 @@ export const countries = [
   { name: 'Zambia', code: 'ZM' },
   { name: 'Zimbabwe', code: 'ZW' }
 ];
+
+type Unpacked<T> = T extends (infer U)[] ? U : T;
+export type Country = Unpacked<typeof countries>;

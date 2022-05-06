@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className='absolute bottom-0 mb-4 text-lg sm:mb-6'>
+    <footer className='mb-6 mt-2 flex flex-1 items-end text-lg'>
       <p>
         Made with{' '}
         <span role='img' aria-label='heart'>
