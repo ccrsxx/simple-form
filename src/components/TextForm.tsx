@@ -15,7 +15,7 @@ interface TextFormProps {
     | 'numeric'
     | 'decimal'
     | undefined;
-  errorMessage?: string;
+  errorMessage: string;
 }
 
 export function TextForm({

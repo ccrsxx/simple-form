@@ -38,6 +38,7 @@ export function App() {
     const { confirmPassword, ...rest } = {
       ...data
     };
+    // eslint-disable-next-line no-alert
     alert(JSON.stringify(rest));
   };
 
