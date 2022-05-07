@@ -9,6 +9,18 @@
   --color-3: '';
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:-webkit-autofill + label {
+  @apply -top-3.5 text-sm text-gray-600;
+}
+
 #root > div {
   animation: live-gradient 15s ease infinite;
   background-image: linear-gradient(

@@ -67,7 +67,6 @@ export function TextForm({
         })}
         inputMode={inputMode}
         placeholder=' '
-        autoComplete='nope'
       />
       <label
         className='absolute left-0 -top-3.5 text-sm
