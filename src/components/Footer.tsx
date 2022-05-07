@@ -8,8 +8,8 @@ export function Footer() {
         </span>
         with{' '}
         <a
-          className='decoration-transparent underline-offset-2 transition-all 
-                     hover:underline hover:decoration-pink-200'
+          className='rounded px-0.5 decoration-transparent underline-offset-2 transition-all hover:underline
+                     hover:decoration-pink-200 focus:outline-none focus:ring-2 focus:ring-white'
           href='https://github.com/ccrsxx'
         >
           ccrsxx
