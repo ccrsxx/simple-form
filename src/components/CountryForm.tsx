@@ -25,7 +25,7 @@ export function CountryForm({
       }) => (
         <Combobox
           value={value}
-          onChange={(data: Country) => onChange(data.name)}
+          onChange={({ name }: Country) => onChange(name)}
         >
           <div>
             <Combobox.Input
@@ -96,16 +96,18 @@ export function CountryForm({
                       }
                       value={country}
                     >
-                      {({ selected, active }) => (
+                      {({ active }) => (
                         <>
                           <span
                             className={`block truncate ${
-                              selected ? 'font-medium' : 'font-normal'
+                              country.name === value
+                                ? 'font-medium'
+                                : 'font-normal'
                             }`}
                           >
                             {country.name}
                           </span>
-                          {selected ? (
+                          {country.name === value ? (
                             <span
                               className={`absolute inset-y-0 left-0 flex items-center pl-3 ${
                                 active ? 'text-white' : 'text-teal-600'
