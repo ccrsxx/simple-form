@@ -48,7 +48,7 @@ export function TextForm({
     <div>
       <input
         className={`${dirtyFields[id] && !errors[id] && 'border-green-400'} ${
-          errors[id] && 'border-pink-400'
+          errors[id] && isSubmitted && 'border-pink-400'
         } peer relative mb-2 h-10 w-full border-b-2 text-gray-900 transition-colors duration-300
           invalid:border-pink-400 focus:border-blue-400 focus:outline-none`}
         id={id}

@@ -32,7 +32,7 @@ export function CountryForm({
               className={`${
                 dirtyFields.country && !errors.country && 'border-green-400'
               } ${
-                errors.country && 'border-pink-400'
+                errors.country && isSubmitted && 'border-pink-400'
               } peer mb-2 h-10 w-full border-b-2 text-sm leading-5 text-gray-900
                 invalid:border-pink-400 focus:border-blue-400 focus:outline-none`}
               displayValue={value}
